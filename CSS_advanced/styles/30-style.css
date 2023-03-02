@@ -546,12 +546,21 @@ ul.row {
     position: relative;
 }
 
-.card-title, .card-work a {
+.card-work, .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title, .card-work a::after {
+.card-work, .card-title a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.card-work:hover .card-title {
     opacity: 1;
 }

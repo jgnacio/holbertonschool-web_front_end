@@ -394,7 +394,7 @@ ul.row {
     background: var(--color-black);
 }
 
-.footer-addres {
+.footer-address {
     color: var(--text-color);
 }
 
@@ -402,6 +402,6 @@ ul.row {
     display: block;
 }
 
-.social-link, .social-link > svg {
+.social-link, .social-link svg {
     color: var(--text-color);
 }

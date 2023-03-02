@@ -402,6 +402,6 @@ ul.row {
     display: block;
 }
 
-.social-link, .social-link svg {
+.social-link > svg {
     color: var(--text-color);
 }
